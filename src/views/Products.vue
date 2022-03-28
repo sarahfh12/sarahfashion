@@ -14,7 +14,7 @@
                 <h4>{{ produk.nama }}</h4>
                 <h4>Rp{{ produk.harga }}</h4>
                 <a v-if="produk.stok > 0" :href="produk.link_eksternal" class="btn btn-danger btn-block">beli</a>
-                <a v-else href = "#" class="disable btn btn-drak btn-block" >Stok habis!!</a>
+                <a v-else href = "#" class="disable btn btn-dark btn-block" >Stok habis!!</a>
               </div>
             </div>
           </div>
